@@ -3,7 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --additional-text-color-white: #ffffff;
-  --primary-bg-color: #e5e5e5;
+  --primary-bg-color: white;
   --additional-bg-color: #f5f4fa;
   --additional-bg-color-dark: #2f303a;
 }
@@ -126,7 +126,7 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 1200px;
+
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
@@ -225,6 +225,10 @@ body {
 
 .features.list {
   padding-left: 0;
+}
+
+.features.list .item {
+  width: 270px;
 }
 
 /* чим ми займаємось */
